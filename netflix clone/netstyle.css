@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(41, 20, 20);
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+
+}
+.navlogo{
+height: 32px;
+width: 314px;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 32px;
+    width: 45%;
+    margin-left: 38px;
+}
+
+.nav2{
+    width: 458px;
+    height: 38px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 850px;
+    
+}
+
+.lang{
+    display: flex;
+    border: 0.1px solid gray;
+    align-items: center;
+    height: 32px;
+    width: 124.4px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.lang i{
+    margin-left: 7px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 7px;
+    font-weight: 300;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.border:hover{
+    background-color: rgb(42, 41, 41);
+
+}
+
+.sign{
+    background-color: white;
+    border-radius: 1rem;
+    color:rgb(41, 20, 20);
+    height: 32px;
+    width: 76.2px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/**hero content**/
+.hero{
+    height: 700px;
+    background-color:  rgb(41, 20, 20);
+}
+
+.content{
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background-image: url("m.webp");
+    background-size: cover;
+    height: 600px;
+    width: 1300px;
+    margin-top: 250px;
+    border-radius: 20px;
+    border: 3px solid silver;
+}
+.sign:hover{
+    background-color: rgb(201, 197, 197);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 20, 20);
+}
+
+.img:hover{
+    height: 608px;
+    width: 1308px;
+    border: 4px solid silver;
+}
+
+/**email box**/
+.emailbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e1{
+    height: 56px;
+    width: 378px;
+    background-color: rgb(12, 12, 12);
+    margin-top: 250px;
+    border-radius: 1.4rem;
+    color: rgb(146, 142, 142);
+    display: flex;
+    align-items: center;
+    border: 0.20px solid silver;
+    
+}
+.text{
+    padding-left: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 193px;
+    background-color: red;
+    color: white;
+    border-radius: 1.5rem;
+    font-weight: 900;
+    margin-top: 250px;
+    margin-left: 8px;
+}
+
+.emailbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.e2:hover{
+    background-color: rgb(231, 91, 91);
+}
+
+.movieslist{
+    height: 800px;
+    background-color:rgb(41, 20, 20) ;
+    display: flex;
+    justify-content: baseline;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.movie1{
+    background-image: url("devara.jpeg");
+    background-size: cover;
+    margin-left: 60px;
+}
+.movie2{
+    background-image: url("arm.jpeg");
+    background-size: cover;
+}
+.movie3{
+    background-image: url("vettayan2.jpeg");
+    background-size: cover; 
+}
+.movie4{
+    background-image: url("deadpool.jpg");
+    background-size: cover; 
+}
+.movie5{
+    background-image: url("lucky.jpg");
+    background-size: cover; 
+}
+.movie6{
+    background-image: url("pushpa.jpeg");
+    background-size: cover; 
+}
+.movie7{
+    background-image: url("stree.jpg");
+    background-size: cover; 
+    
+}
+
+.trending{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+.cm{
+height: 250px;
+width: 180px;
+border: 2px solid rgb(203, 202, 202);
+border-radius: 10px;
+z-index: 1;
+margin-right: 20px;
+}
+h3{
+    color: rgb(247, 67, 67);
+    font-weight: 200;
+    font-size: 30px;
+    font-family: fantasy;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    padding-bottom: 270px;
+    position:absolute;
+}
+
+.cm:hover{
+    border: 3px solid rgb(247, 245, 245);
+}
+
+/**Horror movie section**/
+
+.horror{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+
+.cm{
+    height: 250px;
+    width: 180px;
+    border: 2px solid rgb(203, 202, 202);
+    border-radius: 10px;
+    z-index: 1;
+    margin-right: 20px;
+    }
+    h3{
+        color: red;
+        font-weight: 200;
+        font-size: 30px;
+        font-family: fantasy;
+        padding-left: 30px;
+        margin-bottom: 30px;
+        align-self: flex-start;
+        padding-bottom: 270px;
+        position:absolute;
+    }
+    
+    .cm:hover{
+        border: 3px solid rgb(247, 245, 245);
+    }
+
+    .movieh1{
+        background-image: url("nun2.jpg");
+        background-size: cover;
+        margin-left: 60px;
+    }
+    .movieh2{
+        background-image: url("annabelle2.jpeg");
+        background-size: cover;
+    }
+    .movieh3{
+        background-image: url("conjuring3.jpeg");
+        background-size: cover; 
+    }
+    .movieh4{
+        background-image: url("it.jpg");
+        background-size: cover; 
+    }
+    .movieh5{
+        background-image: url("dead\ silence.jpg");
+        background-size: cover; 
+    }
+    .movieh6{
+        background-image: url("insidious.jpg");
+        background-size: cover; 
+    }
+    .movieh7{
+        background-image: url("ghost.jpeg");
+        background-size: cover; 
+        
+    }
+    footer{
+        height: 200px;
+        background-color: rgb(41, 20, 20) ;
+    }
